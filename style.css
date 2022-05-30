@@ -33,18 +33,20 @@ li {
     width: 500px;
     margin: 0 auto 0;
 }
+
 .input,
 .label {
     width: 56%;
     display: inline-block;
     flex-grow: 1;
 }
+
 .add-task__wrapper {
     display: flex;
 }
 
 .input,
-.btn{
+.btn {
     outline: none;
 }
 
@@ -57,6 +59,7 @@ li {
     font-family: Lato, sans-serif;
     cursor: pointer;
 }
+
 .btn:hover {
     color: #3a3A3a;
 }
@@ -70,6 +73,7 @@ li {
     margin: 0;
     text-transform: uppercase;
 }
+
 .input {
     margin: 0;
     width: 226px;
@@ -84,6 +88,7 @@ li {
     color: #888;
     display: none;
 }
+
 .input:focus {
     color: #333;
 }
@@ -92,6 +97,7 @@ li {
     display: block;
     margin: 0 0 20px;
 }
+
 .add-task__input {
     width: 318px;
     display: inline-block;
@@ -110,6 +116,7 @@ li {
 .checkbox{
     margin: 0 10px;
 }
+
 .label {
     padding-left: 10px;
     box-sizing: border-box;
@@ -142,7 +149,8 @@ li {
 }
 
 @media (max-width: 768px) {
+
     .header__container { 
       text-align: center;
-  }
+    }
   }
